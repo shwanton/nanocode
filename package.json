@@ -1,0 +1,16 @@
+{
+  "name": "nanocode",
+  "version": "1.0.0",
+  "description": "Minimal Claude Code alternative in TypeScript using Bun",
+  "type": "module",
+  "scripts": {
+    "start": "bun run nanocode.ts",
+    "dev": "bun --watch run nanocode.ts"
+  },
+  "dependencies": {
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
